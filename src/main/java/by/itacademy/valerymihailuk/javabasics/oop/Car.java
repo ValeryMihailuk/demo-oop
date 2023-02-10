@@ -12,43 +12,49 @@ public class Car {
     public void setId(int newId) {
         if (newId > 0) {
             id = newId;
+        } else {
+            System.out.println("Invalid ID");
         }
-        System.out.println("Invalid ID");
     }
 
     public void setModel(String newModel) {
         if (newModel != " ") {
             model = newModel;
+        } else {
+            System.out.println("Invalid Model");
         }
-        System.out.println("Invalid Model");
     }
 
     public void setName(String newName) {
         if (newName != " ") {
             name = newName;
+        } else {
+            System.out.println("Invalid Name");
         }
-        System.out.println("Invalid Name");
     }
 
     public void setColor(String newColor) {
         if (newColor != " ") {
             color = newColor;
+        } else {
+            System.out.println("Invalid Color");
         }
-        System.out.println("Invalid Color");
     }
 
     public void setRegNumber(String newRegNumber) {
         if (newRegNumber != " ") {
             regNumber = newRegNumber;
+        } else {
+            System.out.println("Invalid Register Number");
         }
-        System.out.println("Invalid Register Number");
     }
 
     public void setYear(int newYear) {
         if (newYear > 0) {
             year = newYear;
+        } else {
+            System.out.println("Invalid Year");
         }
-        System.out.println("Invalid Year");
     }
 
     public void setPrice(int newPrice) {
